@@ -1,0 +1,188 @@
+body {
+    font-family: Arial;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#wrapper {
+    width: 600px;
+    height: 270px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#adv {
+    float: inline-end;
+    text-align: right;
+    margin: 5 8;
+    font-size: 12.5px;
+}
+
+.item {
+    display: inline-flex;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#country {
+    height: 157px;
+    width: 45%;
+    margin: 15px auto auto 15px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#weight {
+    height: 70px;
+    width: 45%;
+    margin: 15px 15px auto auto;
+    display: inline-flex;
+    float: right;
+    text-align: center;
+}
+
+#weight:last-of-type {
+    margin: 15px 15px 15px auto;
+}
+
+#dheader {
+    margin: 15px auto 15px auto;
+    text-align: center;
+}
+
+#wheader {
+    width: max-content;
+}
+
+#weightform {
+    float: inline-end;
+    width: 90px;
+    margin: 10px 0 10px 25px;
+    border: none;
+    text-align: right;
+    font-size: 15px;
+}
+
+#cheader {
+    margin: 20px 0px 0px 25px;
+    text-align: center;
+}
+
+#cargoform {
+    float: inline-end;
+    width: 95px;
+    margin: 15px 0 0px 5px;
+    border: none;
+    text-align: right;
+    font-size: 15px;
+    resize: none;
+    height: 50px;
+}
+
+#ebutton {
+    width: 572.5px;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#ctext {
+    margin: 3 auto;
+    font-weight: normal;
+}
+
+#first {
+    display: block;
+    height: 100px;
+    width: 27.5%;
+}
+
+li {
+    height: 100px;
+    width: 65%;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 15px auto 0px auto;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: left;
+    margin: 10px 10px 0px 10px;
+    font-size: 15px;
+}
+
+#logo {
+    width: 120px;
+    float: left;
+    margin: 10px 10px;
+    border-radius: 7.5px;
+}
+
+#second {
+    display: inline;
+    margin-bottom: 0;
+    width: 18%;
+}
+
+h1 {
+    margin: 10px 10px 0px 10px;
+    float: inline-start;
+}
+
+#price {
+    margin-top: 17.5px;    
+}
+
+#third {
+    display: inline-grid;
+    margin-top: 10px;
+    width: 15%;
+    height: 80%;
+}
+
+.ch {
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+#fourth {
+    width: 21.5%;
+    display: block;
+    margin: auto;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #df0d34;
+    color: white;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    width: 60%;
+    height: 40%;
+
+}
+
+#estimation {
+    display:none;
+}
+
+#ebutton {
+    font-size: 15px;
+}

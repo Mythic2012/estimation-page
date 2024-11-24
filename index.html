@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Estimation - EMB</title>
+    </head>
+
+    <body>
+        <image src="images/image.png" width="100%"></image>
+        <script src="index.js"></script>
+
+        <div id="wrapper">
+            <div class="item" id="country">
+                <h2 id="dheader">Destination</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" width="128px">
+                <h5 id="ctext">United Kingdom</h5 id="ctext">
+            </div>
+            <div class="item" id="weight">
+                <h2 id="wheader">Weight (g)</h2>
+                <input type="text" id="weightform" value="100">
+            </div>
+            <div class="item" id="weight">
+                <h2 id="cheader">Cargo Type</h2>
+                <textarea type="text" id="cargoform" value="General Cargo - Daily Use">General Cargo</textarea>
+            </div>
+
+            <div id="adv">
+                <a href="#" onclick="showExtraEstimation()" id="adv">Advanced Options</a>
+            </div>
+
+            <button id="ebutton" onclick="showEstimation()"><i>Estimate!</i></button>
+        </div>
+
+
+        <ul id="estimation">
+        <br><br>
+        <hr>
+        <br>
+            <li>
+                <div id="first">
+                    <img src="images/rm.png" id="logo">
+                    <h2>UK Packet</h2>
+                    <p>Royal Mail</p>
+                </div>
+                <div id="second">
+                    <p id="price">Price</p>
+                    <h1>$10.20</h1>
+                </div>
+                <div id="second">
+                    <p id="price">Delivery Time</p>
+                    <h1>10-25 days</h1>
+                </div>
+                <div id="third">
+                    <a class="ch">• ✅ Tax Free</a>
+                    <a class="ch">• No re-delivery service</a>
+                    <a class="ch">• 0 - 5000g</a>
+                </div>
+                <div id="fourth">
+                    <button onclick="displayInfo('UK Packet')">More Details</button>
+                </div>
+            </li>
+            <li>
+                <div id="first">
+                    <img src="images/ems.png" id="logo">
+                    <h2>ZJ-EMS</h2>
+                    <p>Parcelforce</p>
+                </div>
+                <div id="second">
+                    <p id="price">Price</p>
+                    <h1>$22.80</h1>
+                </div>
+                <div id="second">
+                    <p id="price">Delivery Time</p>
+                    <h1>4-29 days</h1>
+                </div>
+                <div id="third">
+                    <a class="ch">• ❌ Tax Free</a>
+                    <a class="ch">• via. China Post</a>
+                    <a class="ch">• 0 - 30000g</a>
+                </div>
+                <div id="fourth">
+                    <button onclick="displayInfo('ZJ-EMS')">More Details</button>
+                </div>
+            </li>
+            <li>
+                <div id="first">
+                    <img src="images/eub.png" id="logo">
+                    <h2>ZJ-EUB</h2>
+                    <p>Parcelforce</p>
+                </div>
+                <div id="second">
+                    <p id="price">Price</p>
+                    <h1>$6.45</h1>
+                </div>
+                <div id="second">
+                    <p id="price">Delivery Time</p>
+                    <h1>8-20 days</h1>
+                </div>
+                <div id="third">
+                    <a class="ch">• ❌ Tax Free</a>
+                    <a class="ch">• Billed on actual weight</a>
+                    <a class="ch">• 0 - 2000g</a>
+                </div>
+                <div id="fourth">
+                    <button onclick="displayInfo('ZJ-EUB')">More Details</button>
+                </div>
+            </li>
+            <li>
+                <div id="first">
+                    <img src="images/ups.png" id="logo">
+                    <h2>HK-UPS-T</h2>
+                    <p>UPS</p>
+                </div>
+                <div id="second">
+                    <p id="price">Price</p>
+                    <h1>$47.03</h1>
+                </div>
+                <div id="second">
+                    <p id="price">Delivery Time</p>
+                    <h1>4-22 days</h1>
+                </div>
+                <div id="third">
+                    <a class="ch">• ❌ Tax Free</a>
+                    <a class="ch">• No re-delivery service</a>
+                    <a class="ch">• 0 - 23000g</a>
+                </div>
+                <div id="fourth">
+                    <button onclick="displayInfo('HK-UPS-T')">More Details</button>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>
